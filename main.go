@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+
+	"./log"
+
+)
 
 func main() {
-	fmt.Println("vim-go")
+	logger := log.New()
+	logger.Info("dsf")
 }
